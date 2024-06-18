@@ -1,2 +1,10 @@
-this way of besiness
-reporting them
+pipeline{
+      agent any
+      stages{
+        stage('git checkout'){
+          steps{
+            echo "welcome"
+          }
+        }
+      }
+    }
